@@ -115,6 +115,8 @@ To get started with the project environment, run the following:
 $ cd RoboND-DeepRL-Project/build/aarch64/bin
 $ ./gazebo-arm.sh
 ```
+To run challenge 1, rename ArmPlugin1.cpp to ArmPlugin.cpp
+To run challenge 1, rename ArmPlugin2.cpp to Armplugin.cpp
 
 <img src="https://github.com/dusty-nv/jetson-reinforcement/raw/master/docs/images/gazebo_arm.jpg">
 
