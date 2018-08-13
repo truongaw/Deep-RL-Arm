@@ -120,4 +120,4 @@ To run challenge 1, rename ArmPlugin2.cpp to Armplugin.cpp
 
 <img src="https://github.com/dusty-nv/jetson-reinforcement/raw/master/docs/images/gazebo_arm.jpg">
 
-The plugins which hook the learning into the simulation are located in the `gazebo/` directory of the repo. The RL agent and the reward functions are to be defined in [`ArmPlugin.cpp`](gazebo/ArmPlugin.cpp).
+The plugins which hook the learning into the simulation are located in the `gazebo/` directory of the repo. The RL agent and the reward functions are to be defined in [`ArmPlugin.cpp`](gazebo/ArmPlugin.cpp). The robot has two scenarios, challenge 1 and challenge 2. Challenge 1 reward functions are defined in gazebo/ArmPlugin.cpp. If challenge 2 is requested, please change ArmPlugin2.cpp to ArmPlugin.cpp
